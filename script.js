@@ -66,7 +66,7 @@ function fetchTasks() {
         "<button class='btn todolistitem' id='todolistitem'>"+ 
         cont + 
         "</button>" + 
-        '<a href="#" onclick="finishedTask(\''+id+'\');" class="btn btn-success float-right" style="margin-left: 5px;">Done</a>' + 
+        '<button onclick="finishedTask(\''+id+'\');" class="btn btn-success float-right" style="margin-left: 5px;">Done</button>' + 
         '<button onclick="deleteTask(\''+id+'\');" class="btn btn-danger float-right">Delete</button>' + 
         "</div></div>" +
         '<br>';
